@@ -4,14 +4,14 @@ This file allows you to rename files and iterate them automatically.
 You can rename all your vacation photos for example:
 
 abcd.png, 
-efgh.png, 
-ijkl.png
+efgh.jpeg, 
+ijkl.heic
 
 to
 
 holiday_1.png, 
-holiday_2.png, 
-holiday_3.png
+holiday_2.jpeg, 
+holiday_3.heic
 
 
 With this script, you won't have to rename your files manually.
