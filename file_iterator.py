@@ -25,7 +25,7 @@ def get_file_prefix():
 
 def get_folder_path():
     while True:
-        folder_path = input("Type the folder path (e.g. folder): ").strip()
+        folder_path = input("Type the folder path (e.g. /Users/myuser/folder): ").strip()
         folder_path = folder_path.strip("'\"")
         folder_path = os.path.expanduser(folder_path)
         if is_valid_folder_path(folder_path):
@@ -139,7 +139,7 @@ def print_summary(summary):
         print("Hidden files skipped (NOT renamed): 0")
 
     if skipped_rename:
-        print(f"Files that could NOT be renamed: {len(skipped_rename)}")
+        print(f"\nFiles that could NOT be renamed: {len(skipped_rename)}")
         for f in skipped_rename:
             print(f" - {f}")
     else:
